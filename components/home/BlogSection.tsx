@@ -30,15 +30,15 @@ const blogs = [
 
 export default function BlogSection() {
   return (
-    <section className="bg-[#F4F4F4] py-6  px-4">
+    <section className="bg-[#F4F4F4] py-10  px-4">
       <div className="max-w-[1320px] mx-auto text-center">
         {/* Title */}
-        <h2 className="text-[20px] md:text-[48px] font-semibold text-[#1a1a2e] mb-4">
+        <h2 className="text-[20px] md:text-[36px] font-semibold text-[#1a1a2e] mb-4">
           My Blog & Podcast
         </h2>
 
         {/* Subtitle */}
-        <p className="text-gray-600 text-sm md:text-[30px] mb-12 max-w-[1320px] mx-auto leading-relaxed">
+        <p className="text-gray-600 text-sm md:text-base mb-12 max-w-[1320px] mx-auto leading-relaxed">
           In all our work, Barrett Planning Group advocates for healthy
           communities and public policies inspired by a commitment to basic
           social fairness.
@@ -65,8 +65,8 @@ export default function BlogSection() {
               {/* Content */}
               <div className="p-5">
                 {/* Meta */}
-                <div className="text-[14px]  mb-2 flex items-center gap-2">
-                  <span className="flex items-center gap-1 text-[#B15C48]">
+                <div className="text-sm md:text-base  mb-2 flex items-center gap-2">
+                  <span className="flex items-center gap-1 text-[#B15C48] ">
                     <CiClock2 />
                     {blog.date}
                   </span>
@@ -75,12 +75,14 @@ export default function BlogSection() {
                 </div>
 
                 {/* Title */}
-                <h3 className="text-[24px] font-semibold text-[#1a1a2e] mb-2">
+                <h3 className="text-sm md:text-base font-semibold text-[#1a1a2e] mb-2">
                   {blog.title}
                 </h3>
 
                 {/* Description */}
-                <p className="text-[20px] text-gray-600 mb-4">{blog.desc}</p>
+                <p className="text-sm md:text-base text-gray-600 mb-4">
+                  {blog.desc}
+                </p>
 
                 {/* Read More */}
                 <a

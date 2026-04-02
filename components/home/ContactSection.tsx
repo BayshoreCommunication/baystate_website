@@ -2,15 +2,15 @@
 
 export default function ContactSection() {
   return (
-    <section className="bg-[#ffffff] py-6 px-4">
+    <section className="bg-[#ffffff] py-10 px-4">
       <div className="max-w-[1320px] mx-auto text-center">
         {/* Title */}
-        <h2 className="text-[20px] md:text-[48px] font-semibold text-[#1a1a2e] mb-4">
+        <h2 className="text-[20px] md:text-[36px] font-semibold text-[#1a1a2e] mb-4">
           Contact Us
         </h2>
 
         {/* Subtitle */}
-        <p className="text-gray-600 text-sm md:text-[30px] leading-relaxed mb-10">
+        <p className="text-gray-600 text-sm md:text-base leading-relaxed mb-10">
           In all our work, Barrett Planning Group advocates for healthy
           communities and public policies inspired by a commitment to basic
           social fairness.

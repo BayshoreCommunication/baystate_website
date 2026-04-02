@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <nav className="bg-[#131B3F] text-white sticky top-0 left-0 w-full z-50">
-      <div className="max-w-[1320px] mx-auto px-4 md:px-0">
+      <div className="max-w-[1320px] mx-auto px-4 ">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/">
@@ -27,7 +27,7 @@ export default function Header() {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center gap-8 text-[24px] ">
+          <div className="hidden md:flex items-center gap-8 text-sm md:text-base ">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -47,7 +47,7 @@ export default function Header() {
           <div className="hidden md:block">
             <Link
               href="/contact"
-              className="bg-[#AC5D50] px-5 py-3 rounded-md hover:opacity-90 transition text-[24px]"
+              className="bg-[#AC5D50] px-5 py-3 rounded-md hover:opacity-90 transition text-sm md:text-base"
             >
               Contact Us
             </Link>

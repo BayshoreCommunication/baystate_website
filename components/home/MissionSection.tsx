@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MissionSection() {
   return (
-    <section className="bg-[#F4F4F4] py-6 md:py-20 px-4">
+    <section className="bg-[#F4F4F4] py-10 px-4">
       <div className="max-w-[1320px] mx-auto text-center">
         {/* Image */}
         <div className="w-full mb-10">
@@ -17,20 +17,20 @@ export default function MissionSection() {
         </div>
 
         {/* Title */}
-        <h2 className="text-[20px] md:text-[48px] font-semibold text-[#1a1a2e] mb-6">
+        <h2 className="text-[20px] md:text-[36px] font-semibold text-[#1a1a2e] mb-6">
           Our Mission
         </h2>
 
         {/* Text */}
         <div className="max-w-[900px] mx-auto">
-          <p className="text-[#5F5F5F] leading-relaxed mb-4 text-sm md:text-[30px]">
+          <p className="text-[#5F5F5F] leading-relaxed mb-4 text-sm md:text-base">
             At Baystate Planning & Consulting, our mission is to shape
             communities that are sustainable, inclusive, and resilient. We
             believe every community should offer opportunities for people of all
             ages, incomes, and backgrounds to thrive.
           </p>
 
-          <p className="text-[#5F5F5F] leading-relaxed text-sm md:text-[30px]">
+          <p className="text-[#5F5F5F] leading-relaxed text-sm md:text-base">
             We partner with municipalities, nonprofits, and private
             organizations to navigate complex planning challenges with clarity
             and creativity. By combining technical expertise with authentic
