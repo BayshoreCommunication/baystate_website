@@ -48,7 +48,7 @@ const data = [...testimonials, ...testimonials, ...testimonials];
 
 function Card({ item }: { item: Testimonial }) {
   return (
-    <div className="bg-white text-black rounded-[20px] p-5 h-full">
+    <div className="bg-[#F5F5F5] text-black rounded-[20px] p-5 h-full">
       <div className="flex items-center gap-3 mb-4">
         <Image
           src={item.image}
@@ -73,7 +73,7 @@ function Card({ item }: { item: Testimonial }) {
 
 export default function TestimonialSection() {
   return (
-    <section className="bg-[#F5F5F5] py-8 px-4 overflow-hidden">
+    <section className="bg-white py-8 px-4 overflow-hidden">
       {/* ✅ Max Width ঠিক */}
       <div className="max-w-full  mx-auto">
         {/* Header */}
