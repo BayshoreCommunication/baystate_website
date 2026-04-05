@@ -80,7 +80,7 @@ export default function ContactSection() {
 
             {/* Message */}
             <textarea
-              placeholder="Email Address"
+              placeholder="Message"
               rows={3}
               className="bg-white w-full border-b border-gray-300 py-2 text-sm outline-none resize-none focus:border-black transition"
             />

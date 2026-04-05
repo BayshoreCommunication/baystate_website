@@ -15,13 +15,13 @@ const josefin = Josefin_Sans({
 /* ---------------- METADATA ---------------- */
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.tripvienlaw.com"),
+  metadataBase: new URL("https://baystate-website.vercel.app"),
   title: "Baystate",
   description: "Baystate Website",
   openGraph: {
     title: "Baystate",
-    description: "Trip Vien Website",
-    url: "https://www.tripvienlaw.com/",
+    description: "Baystate Website",
+    url: "https://baystate-website.vercel.app/",
     siteName: "Baystate",
     locale: "en_US",
     type: "website",
