@@ -16,7 +16,7 @@ export default function Hero() {
       </div>
 
       {/* Content Box */}
-      <div className="bg-[#ffffff] text-center px-4 py-8 md:py-10">
+      <div className="bg-[#ffffff] text-center px-4 py-6 md:py-16">
         <h2 className="text-[20px] md:text-[36px]  font-semibold text-[#1a1a2e] leading-snug">
           We Plan with Purpose, and <br className="hidden md:block" />
           People in Mind.

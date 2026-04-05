@@ -7,18 +7,18 @@ export default function PodcastHero() {
     <section className="relative h-[250px] md:h-[300px] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <Image
-        src="/images/podcasts/podcasts-hero.png" // 👉 তোমার image path
-        alt="Background"
+        src="/images/who-we-are/who-bg.png" // your image
+        alt="background"
         fill
         priority
-        className="object-cover opacity-40"
+        className="object-cover object-center"
       />
 
-      {/* Overlay (optional for better contrast) */}
-      <div className="absolute inset-0 bg-white/20" />
+      {/* White Overlay (faded effect) */}
+      <div className="absolute inset-0 bg-white/50" />
 
       {/* Content */}
-      <h2 className="relative text-[24px] md:text-[32px] font-semibold text-[#1E2A44]">
+      <h2 className="relative text-[24px] md:text-[32px] font-semibold text-[#131B3F]">
         Podcasts
       </h2>
     </section>

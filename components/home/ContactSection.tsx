@@ -2,7 +2,7 @@
 
 export default function ContactSection() {
   return (
-    <section className="bg-[#ffffff] py-10 px-4">
+    <section className="bg-[#ffffff] py-6 md:py-16 px-4">
       <div className="max-w-[1320px] mx-auto text-center">
         {/* Title */}
         <h2 className="text-[20px] md:text-[36px] font-semibold text-[#1a1a2e] mb-4">

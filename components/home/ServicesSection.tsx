@@ -46,7 +46,7 @@ const services = [
       "• Compliance documentation",
       "• Submission management for municipal, state, and federal programs",
       "• Support for nonprofit and housing authority",
-      "• Ideal for municipalities, community development organizations, and developers seeking to respond to early-stage funding or partnership opportunities.",
+      "Ideal for municipalities, community development organizations, and developers seeking to respond to early-stage funding or partnership opportunities.",
     ],
     image: "/images/home/service5.png",
   },
@@ -86,7 +86,7 @@ type Service = (typeof services)[number];
 
 export default function ServicesSection() {
   return (
-    <section className="bg-[#F5F5F5] py-10 px-4">
+    <section className="bg-white py-6 md:py-16 px-4">
       <div className="max-w-[1320px] mx-auto">
         {/* Header */}
         <div className="text-center mb-14">
@@ -142,15 +142,15 @@ function ServiceItem({ service, index }: { service: Service; index: number }) {
 
         {/* Content */}
         <div>
-          <h3 className="text-[20px] md:text-[24px] font-semibold text-[#1a1a2e] mb-4">
+          <h3 className=" text-[20px] md:text-[24px] font-semibold text-[#1a1a2e] mb-4">
             {service.title}
           </h3>
 
           <ul className="text-gray-600 text-sm md:text-base space-y-2">
             {service.description.map((item, i) => (
               <li key={i} className="flex items-start  gap-2">
-                <span className="text-[#AC5D50] mt-[2px]"></span>
-                <span>{item}</span>
+                {/* <span className="text-[#AC5D50] mt-[2px]"></span> */}
+                <span className="max-w-lg">{item}</span>
               </li>
             ))}
           </ul>

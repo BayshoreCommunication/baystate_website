@@ -30,7 +30,7 @@ const blogs = [
 
 export default function BlogSection() {
   return (
-    <section className="bg-[#F4F4F4] py-10  px-4">
+    <section className="bg-[#F4F4F4] py-6 md:py-16  px-4">
       <div className="max-w-[1320px] mx-auto text-center">
         {/* Title */}
         <h2 className="text-[20px] md:text-[36px] font-semibold text-[#1a1a2e] mb-4">
@@ -66,12 +66,12 @@ export default function BlogSection() {
               <div className="p-5">
                 {/* Meta */}
                 <div className="text-sm md:text-base  mb-2 flex items-center gap-2">
-                  <span className="flex items-center gap-1 text-[#B15C48] ">
+                  <span className=" text-xs flex items-center gap-1 text-[#B15C48] ">
                     <CiClock2 />
                     {blog.date}
                   </span>
                   <span>|</span>
-                  <span>{blog.category}</span>
+                  <span className="text-xs">{blog.category}</span>
                 </div>
 
                 {/* Title */}

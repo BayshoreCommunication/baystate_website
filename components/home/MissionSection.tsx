@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MissionSection() {
   return (
-    <section className="bg-[#F4F4F4] py-10 px-4">
+    <section className="bg-[#F4F4F4] py-6 md:py-16 px-4">
       <div className="max-w-[1320px] mx-auto text-center">
         {/* Image */}
         <div className="w-full mb-10">

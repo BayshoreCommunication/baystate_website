@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function AboutSection() {
   return (
-    <section className="relative w-full py-10 px-4">
+    <section className="relative w-full py-6 md:py-16 px-4">
       {/* Background Image */}
       <Image
         src="/images/home/about.png" // your image path
