@@ -73,7 +73,7 @@ function Card({ item }: { item: Testimonial }) {
 
 export default function TestimonialSection() {
   return (
-    <section className="bg-white py-8 px-4 overflow-hidden">
+    <section className="bg-white py-8 md:py-16 px-4 overflow-hidden">
       {/* ✅ Max Width ঠিক */}
       <div className="max-w-full  mx-auto">
         {/* Header */}

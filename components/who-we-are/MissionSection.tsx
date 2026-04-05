@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function MissionSection() {
   return (
-    <section className="relative w-full py-8 px-4 text-center overflow-hidden">
+    <section className="relative w-full py-8 md:py-16 px-4 text-center overflow-hidden">
       {/* Background Image */}
       <Image
         src="/images/who-we-are/mission-bg.png" // your bg image

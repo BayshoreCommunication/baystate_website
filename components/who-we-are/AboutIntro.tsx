@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function AboutIntro() {
   return (
-    <section className="bg-[#ffffff] py-8 px-4">
+    <section className="bg-[#ffffff] py-8 md:py-16 px-4">
       <div className="max-w-[1320px] mx-auto grid md:grid-cols-2 gap-10 items-center">
         {/* Left Image */}
         <div className="relative w-full h-[320px] md:h-[420px] rounded-[20px] overflow-hidden">
